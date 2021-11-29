@@ -14,10 +14,10 @@ import {
   formatRemainingTimeInSeconds } from 'utils/helpers';
 import * as S from './Clock.style';
 
-type TickerProps = {
+type ClockProps = {
   setPomodoroCycleType: Dispatch<SetStateAction<number>>,
 }
-function Clock({ setPomodoroCycleType }: TickerProps): JSX.Element {
+function Clock({ setPomodoroCycleType }: ClockProps): JSX.Element {
   const { width } = useWindowSize();
   const orderedCycles = useContext(cyclesContext);
 
