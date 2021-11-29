@@ -25,8 +25,6 @@ text-shadow:
 0 0 151px #FF00A1;
 `;
 
-
-
 export const Container = styled.div`
   margin: 0 auto;
   max-width: ${({ theme }) => theme.sizes.phone}px;
