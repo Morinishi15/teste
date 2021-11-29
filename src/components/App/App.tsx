@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-
 import Tabs from 'components/Tabs/Tabs';
 import Clock from 'components/Clock/Clock';
 import * as S from './App.style';
 import * as H from '../../index'
+
 
 function App(): JSX.Element {
 
@@ -21,6 +21,7 @@ function App(): JSX.Element {
         <div className="vl"></div>
         <a href="#" id="about">Sobre</a>
       </div>
+      
     </S.Container>
   );
 }

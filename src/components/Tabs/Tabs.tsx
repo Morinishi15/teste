@@ -11,9 +11,9 @@ function Tabs({ activeItem }: TabsProps): JSX.Element {
   return (
     <S.TabsWrapper>
       <S.Tabs positionOfActiveItem={activeItem}>
-        <S.Tab>pomodoro</S.Tab>
-        <S.Tab>short break</S.Tab>
-        <S.Tab>long break</S.Tab>
+        <S.Tab>Pomodoro</S.Tab>
+        <S.Tab>Short break</S.Tab>
+        <S.Tab>Long break</S.Tab>
       </S.Tabs>
     </S.TabsWrapper>
   );
