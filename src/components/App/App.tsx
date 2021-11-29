@@ -14,7 +14,7 @@ function App(): JSX.Element {
       <S.MainTitle className='Orc'>Orc</S.MainTitle>
       <Tabs activeItem={pomodoroCycleType} />
       <Clock 
-        setPomodoroCycleType={setPomodoroCycleType}
+        setPomodOrcCycleType={setPomodoroCycleType}
       />
       <div className="buttons">
       <a href="#" id="init">Iniciar</a>
